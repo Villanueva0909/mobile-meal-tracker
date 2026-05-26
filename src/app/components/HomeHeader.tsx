@@ -10,7 +10,7 @@ export default function HomeHeader() {
 
   return (
     <View style={globalStyles.header}>
-      <Text style={styles.date}>{currentDate}</Text>
+      <Text style={globalStyles.title}>Meal Tracker</Text>
     </View>
   );
 }
